@@ -47,7 +47,7 @@ class VirtualMachine():
                 additional_parameters_count = 1
             elif opcode in (5, 6):
                 additional_parameters_count = 2
-            elif opcode in (9,):
+            elif opcode in (99,):
                 additional_parameters_count = 0
 
             # 3a) Load modes for additional parameters - two rightmost digits (ones and tens are opcode),
